@@ -1,10 +1,10 @@
 const firebaseConfig = {
-  apiKey: "你的API金鑰",
-  authDomain: "你的專案.firebaseapp.com",
-  projectId: "你的projectId",
-  storageBucket: "你的專案.appspot.com",
-  messagingSenderId: "xxxx",
-  appId: "xxx"
+  apiKey: "AIzaSyCFPtv-eValmarH9g96Ef-OdbwdYger6tE",
+  authDomain: "x-tw-455de.firebaseapp.com",
+  projectId: "x-tw-455de",
+  storageBucket: "x-tw-455de.firebasestorage.app",
+  messagingSenderId: "843984136113",
+  appId: "1:843984136113:web:24a4bd793b1a6f7b813f90"
 };
 
 firebase.initializeApp(firebaseConfig);
