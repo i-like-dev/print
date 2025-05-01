@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>上傳檔案</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>檔案上傳</h1>
+    <input type="file" id="fileInput" multiple>
+    <button id="uploadBtn">完成</button>
+    <div id="result" style="display:none;">
+      <p>查詢碼：<span id="codeText"></span></p>
+      <canvas id="qrCanvas"></canvas>
+    </div>
+  </div>
+  <script src="firebase-config.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
